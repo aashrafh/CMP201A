@@ -1,0 +1,33 @@
+# do ExecutionUnit.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 10:25:17 on Oct 14,2019
+# vlog -work work ExecutionUnit.vo 
+# -- Compiling module ExecutionUnit
+# 
+# Top level modules:
+# 	ExecutionUnit
+# End time: 10:25:17 on Oct 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 10:25:22 on Oct 14,2019
+# vlog -work work TestCaseAfterOrg1.vwf.vt 
+# -- Compiling module ExecutionUnit_vlg_vec_tst
+# 
+# Top level modules:
+# 	ExecutionUnit_vlg_vec_tst
+# End time: 10:25:22 on Oct 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L maxv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.ExecutionUnit_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 10:25:23 on Oct 14,2019
+# Loading work.ExecutionUnit_vlg_vec_tst
+# Loading work.ExecutionUnit
+# Loading maxv_ver.maxv_io
+# Loading maxv_ver.maxv_lcell
+# Loading maxv_ver.maxv_asynch_lcell
+# Loading maxv_ver.maxv_lcell_register
+# ** Note: $finish    : TestCaseAfterOrg1.vwf.vt(65)
+#    Time: 1 us  Iteration: 0  Instance: /ExecutionUnit_vlg_vec_tst
+# End time: 10:25:23 on Oct 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
